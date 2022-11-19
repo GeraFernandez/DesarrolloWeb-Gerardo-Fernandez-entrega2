@@ -1,0 +1,42 @@
+/* Mobile last */
+/* Laptop */
+@media (max-width:$extra-grande) {
+    .descripcion {
+        font-size: 17px;
+    }
+}
+
+/* Antes que tablet */
+@media (max-width:$grande) {
+    .descripcion {
+        position: static;
+    }
+}
+
+/* Mobile L */
+@media (max-width:$mediano) {
+    .botonMenu {
+        display: inline;
+
+    }
+
+    .listaDeNavegacion {
+        display: none;
+    }
+}
+
+@media (max-width:$chico) {
+    .tabla {
+        tbody {
+            tr {
+                td{
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    .imagen {
+        height: 5em;
+    }
+}
