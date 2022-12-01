@@ -6,7 +6,7 @@
     }
 }
 
-/* Antes que tablet */
+/* Antes de tablet */
 @media (max-width:$grande) {
     .descripcion {
         position: static;
@@ -24,7 +24,7 @@
         display: none;
     }
 }
-
+/* Mobile s */
 @media (max-width:$chico) {
     .tabla {
         tbody {
